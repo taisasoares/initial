@@ -3,12 +3,50 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
+  -webkit-tap-highlight-color: transparent;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+header,
+main,
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+	
+  overflow: hidden;
+}
+
+button {
+  outline: none;
+  border: none;
+
+  cursor: pointer;
+
+  transition: 200ms ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+/* 
+1. Outra versão
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
 }
 
-/* 
-1. Outra versão
+ou 
+
+
 * {
   padding:0;
   margin:0;
