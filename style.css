@@ -155,6 +155,16 @@ body::-webkit-scrollbar-thumb {
   border: 0px solid #fdf6e2;
 }
 
+/* botão de voltar ao topo*/
+
+#topo {
+  position: fixed;
+  bottom: 62px;
+  right: 62px;
+
+  z-index: 100; /*z-index pode ser modificado para o maior valor de z-index que tiver para poder sobrepor tudo*/
+}
+
 	
 /* 
 1. Outra versão
