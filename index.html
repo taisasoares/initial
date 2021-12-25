@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <script type="text/javascript" src="script.js" defer></script>
     <title>Title</title>
     <link rel="icon" href="icon.png" type="image/icon type" />
 
@@ -11,15 +12,19 @@
 
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-
+  
   <body>
-    <header role="banner"></header>
+    <div id="load">
+      <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+    </div>
+    
+    <div id="app">
+      <header role="banner"></header>
 
-    <main role="main"></main>
+      <main role="main"></main>
 
-    <footer role="contentinfo">&copy;Taisa</footer>
-
-    <script type="text/javascript" src="script.js"></script>
+      <footer role="contentinfo">&copy;Taisa</footer>
+    </div>
   </body>
 </html>
 
@@ -78,4 +83,7 @@
     />
 
     <p id="description-image">Texto descrevendo a imagem</p>
+    
+6. Add loading:lazy
+  <img loading=lazy id="img" src="/imagens/img.svg" alt="img"/>
 -->
