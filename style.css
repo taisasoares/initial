@@ -1,3 +1,5 @@
+/*reset css*/
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,8 @@
 
   font-family: "Montserrat", sans-serif;
 }
+
+/*pré-definições para mobile first*/
 
 header,
 main,
@@ -21,6 +25,8 @@ footer{
   overflow: hidden;
 }
 
+/*reset button*/
+
 button {
   outline: none;
   border: none;
@@ -30,16 +36,36 @@ button {
   transition: 200ms ease-in-out;
 }
 
+/*animação button*/
+
 button:hover {
   transform: scale(1.05);
 }
 
-@media (min-width: 480px) { }
+/*breakpoints media query*/
+
+@media (min-width: 480px) { } /*esse é o padrão, o projeto será programado com essa resolução inicial*/
 @media (min-width: 481px) and (max-width: 768px) { }
 @media (min-width: 769px) and (max-width: 992px) { }
 @media (min-width: 993px) and (max-width: 1200px) { }
 @media (min-width: 1201px) and (max-width: 1600px) { }
 @media (max-width: 1900px) { }
+
+/*estilização barra de rolagem*/
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #fdf6e2;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #f096b1;
+  border-radius: 20px;
+  border: 0px solid #fdf6e2;
+}
 
 	
 /* 
