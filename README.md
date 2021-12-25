@@ -5,6 +5,7 @@
 - Link JS com defer
 - Loading (divs, animação e funcionamento no CSS)
 - Body dividido em header, main e footer
+- Botão de voltar ao topo
 - Dicas de acessibilidade e otimização comentadas (com exemplos)
 
 ### Conteúdo CSS:
@@ -18,6 +19,7 @@
 - Animação button
 - Breakpoints media query
 - Estilização barra de rolagem
+- Botão de voltar ao topo (manter ele fixo na tela)
 - Outras maneiras de resetar o CSS comentadas
 
 ---
