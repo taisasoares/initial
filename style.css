@@ -11,6 +11,24 @@
   font-family: "Montserrat", sans-serif;
 }
 
+/*scroll pela página*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*estilização da seleção de caracteres*/
+
+::selection {
+  background-color: #fdf6e2;
+}
+
+/*impede selecionar img*/
+
+img {
+  user-select: none;
+}
+
 /*pré-definições para mobile first*/
 
 header,
