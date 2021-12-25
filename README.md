@@ -1,6 +1,24 @@
-# Código Inicial
+# Repositório Modelo
 
-Repositório criado com conhecimentos adquiridos através do Hiring Coders para facilitar na hora de criar novos projetos e não acabar esquecendo algo importante.
+### Conteúdo HTML:
+- Código inicial
+- Link JS com defer
+- Loading (divs, animação e funcionamento no CSS)
+- Body dividido em header, main e footer
+- Dicas de acessibilidade e otimização comentadas (com exemplos)
+
+### Conteúdo CSS:
+- Reset CSS
+- Scroll pela página
+- Pré-definições header, main e footer para mobile first
+- Loading (animação e funcionamento)
+- Estilização da seleção de caracteres
+- Impedimento para usuário selecionar imagens
+- Reset button
+- Animação button
+- Breakpoints media query
+- Estilização barra de rolagem
+- Outras maneiras de resetar o CSS comentadas
 
 ---
 
