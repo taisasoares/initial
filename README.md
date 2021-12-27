@@ -22,6 +22,9 @@
 - Botão de voltar ao topo (manter ele fixo na tela)
 - Outras maneiras de resetar o CSS comentadas
 
+### Conteúdo JS:
+- Loading (switch entre load e app)
+
 ---
 
 Aceito sugestões de melhorias <3
